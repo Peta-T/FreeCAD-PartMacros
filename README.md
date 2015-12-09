@@ -6,7 +6,7 @@ create the directory .FreeCAD in your home directory
 
 download the zipfile  of the complete project to your computer.
 
-unzip it  - you will get a directotry freecad-pluginloader-master
+unzip it  - you will get a directotry FreeCAD-PartMacros-master
 
 move the content of this directory  into  .FreeCAD
 

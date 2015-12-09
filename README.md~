@@ -3,9 +3,13 @@
 Install
 -------
 create the directory .FreeCAD in your home directory
+
 download the zipfile  of the complete project to your computer.
+
 unzip it  - you will get a directotry freecad-pluginloader-master
+
 move the content of this directory  into  .FreeCAD
+
 
 Use
 ---
