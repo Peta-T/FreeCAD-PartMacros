@@ -48,15 +48,19 @@ else:
 directory =LIBRARYPATH+'/Mechanical Parts/'
 if not os.path.exists(directory):
     os.mkdir(directory)
-directory =LIBRARYPATH+'/Mechanical Parts/Fasteners Metric/'
+directory =LIBRARYPATH+'/Mechanical Parts/Fasteners/'
 if not os.path.exists(directory):
     os.mkdir(directory)
-directory =LIBRARYPATH+'/Mechanical Parts/Fasteners Metric/Screws/'
+directory =LIBRARYPATH+'/Mechanical Parts/Fasteners/Bolts & Screws/'
 if not os.path.exists(directory):
     os.mkdir(directory)
-directory =LIBRARYPATH+'/Mechanical Parts/Fasteners Metric/Screws/ISO4762 Hexagon socket head cap screws/'
+directory =LIBRARYPATH+'/Mechanical Parts/Fasteners/Bolts & Screws/Metric/'
 if not os.path.exists(directory):
     os.mkdir(directory)
+directory =LIBRARYPATH+'/Mechanical Parts/Fasteners/Bolts & Screws/Metric/ISO4762 Hexagon socket head cap screws/'
+if not os.path.exists(directory):
+    os.mkdir(directory)
+
 
 
 #   Text    P,   b,  dk_max,  da,  ds_min,   e,    lf,   k,   r,   s_mean, t,    v,   dw,   w,   L

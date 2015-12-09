@@ -33,16 +33,15 @@ App=FreeCAD
 Gui=FreeCADGui
 
 param = FreeCAD.ParamGet('User parameter:Plugins/parts_library')
-s=param.GetString('destination')
-print('User parameter:Plugins/partlib : destination : ',s)
+s = param.GetString('destination')
+#print('User parameter:Plugins/partlib : destination : ',s)
 
-if s<>'':
+if s:
     LIBRARYPATH = s
 else:
-    folderDialog = QtGui.QFileDialog.getExistingDirectory(None,u"Choose folder library")
+    folderDialog = QtGui.QFileDialog.getExistingDirectory(None,QtGui.QApplication.translate("PartsLibrary", "Location of your existing Parts library", None, QtGui.QApplication.UnicodeUTF8))
     param.SetString('destination',folderDialog)
-    s=param.GetString('destination')
-    LIBRARYPATH = s
+    LIBRARYPATH = param.GetString('destination')
 
 directory =LIBRARYPATH+'/Mechanical Parts/'
 if not os.path.exists(directory):

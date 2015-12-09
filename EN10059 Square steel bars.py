@@ -51,7 +51,7 @@ if not os.path.exists(directory):
 directory =LIBRARYPATH+'/Mechanical Parts/Profiles EN/'
 if not os.path.exists(directory):
     os.mkdir(directory)
-directory =LIBRARYPATH+'/Mechanical Parts/Profiles EN/EN10059 Recangular steel bars/'
+directory =LIBRARYPATH+'/Mechanical Parts/Profiles EN/EN10059 Square steel bars/'
 if not os.path.exists(directory):
     os.mkdir(directory)
 
