@@ -40,7 +40,7 @@ if s:
     LIBRARYPATH = s
 else:
     folderDialog = QtGui.QFileDialog.getExistingDirectory(None,QtGui.QApplication.translate("PartsLibrary", "Location of your existing Parts library", None, QtGui.QApplication.UnicodeUTF8))
-    param.SetString('destination',folderDialog)
+    param.SetString('destination',str(folderDialog))
     LIBRARYPATH = param.GetString('destination')
 
 directory =LIBRARYPATH+'/Mechanical Parts/'

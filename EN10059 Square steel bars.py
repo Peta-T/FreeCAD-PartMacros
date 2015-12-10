@@ -40,7 +40,7 @@ if s<>'':
     LIBRARYPATH = s
 else:
     folderDialog = QtGui.QFileDialog.getExistingDirectory(None,u"Choose folder library")
-    param.SetString('destination',folderDialog)
+    param.SetString('destination',str(folderDialog))
     s=param.GetString('destination')
     LIBRARYPATH = s
 
