@@ -1,4 +1,7 @@
 # FreeCAD-PartMacros
+These macros are multiply parts generators which are designed for produce
+files of library parts as fasteners, profiles and so on.
+
 
 Install
 -------
